@@ -20,7 +20,7 @@ const Hero = () => {
   // destructure hero data
   const { title, subtitle, btnText, btnIcon } = heroData;
   return (
-    <section className='bg-hero bg-cover bg-center min-h-[40vh] lg:h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]'>
+    <section className='bg-hero bg-cover bg-opacity-60 bg-center min-h-[40vh] lg:h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]'>
       <motion.div
         variants={container}
         initial='hidden'
@@ -28,7 +28,7 @@ const Hero = () => {
         className='container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end'
       >
         {/* text & btn */}
-        <div className='text-white text-center lg:text-left lg:max-w-[640px]'>
+        <div className='text-white font-primary text-center lg:text-left lg:max-w-[640px]'>
           <motion.h1 variants={fadeIn('down')} className='h1'>
             {title}
           </motion.h1>
@@ -47,7 +47,7 @@ const Hero = () => {
           </motion.div>
         </div>
         {/* outline text */}
-        <div className='hidden xl:flex absolute -bottom-[100px] right-0 left-0 before:content-outlineText'></div>
+        {/* <div className='hidden xl:flex absolute -bottom-[100px] right-0 left-0 before:content-outlineText'></div> */}
       </motion.div>
     </section>
   );

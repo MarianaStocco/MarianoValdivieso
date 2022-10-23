@@ -45,7 +45,7 @@ export const socialData = [
 ];
 
 export const heroData = {
-  title: 'Mariano Valdivieso',
+  title: 'MARIANO VALDIVIESO',
   subtitle:
     '“Color is the place where our brain and the universe meet.” – Paul Klee',
   btnText: 'read more',

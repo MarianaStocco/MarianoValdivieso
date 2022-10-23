@@ -5,7 +5,7 @@ module.exports = {
     fontFamily: {
       primary: 'Oswald',
       secondary: 'Raleway',
-      tertiary: 'Rozha One',
+      tertiary: 'Raleway',
     },
     container: {
       padding: {
