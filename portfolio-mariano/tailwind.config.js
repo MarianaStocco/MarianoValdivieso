@@ -25,6 +25,7 @@ module.exports = {
         grey: {
           DEFAULT: '#555555',
         },
+        'fuxia': '#v84499'
       },
       backgroundImage: {
         hero: "url('/src/img/hero/bg1.jpg')",

@@ -25,16 +25,16 @@ const Hero = () => {
         variants={container}
         initial='hidden'
         whileInView={'show'}
-        className='container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end'
+        className='container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end '
       >
         {/* text & btn */}
         <div className='text-white font-primary text-center lg:text-left lg:max-w-[640px]'>
-          <motion.h1 variants={fadeIn('down')} className='h1'>
+          <motion.h1 variants={fadeIn('down')} className='text-[60px] mb-8 lg:mt-[500px] '>
             {title}
           </motion.h1>
           <motion.p
             variants={fadeIn('down')}
-            className='mb-8 lg:mb-16 max-w-lg leading-relaxed'
+            className='mb-8 max-w-lg leading-relaxed text-[#v84499]'
           >
             {subtitle}
           </motion.p>
