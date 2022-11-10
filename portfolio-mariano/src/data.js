@@ -1,4 +1,10 @@
 // import images
+import GalleryImg1 from '../src/img/gallery/1.jpg';
+import GalleryImg2 from '../src/img/gallery/2.jpg';
+import GalleryImg3 from '../src/img/gallery/3.jpg';
+import GalleryImg4 from '../src/img/gallery/4.jpg';
+import GalleryImg5 from '../src/img/gallery/5.jpeg';
+import GalleryImg6 from '../src/img/gallery/6.jpg';
 import Logo from '../src/img/header/logo2.png';
 import QuoteImg from '../src/img/testimonial/quote.svg';
 // import icons
@@ -58,6 +64,44 @@ export const galleryData = {
   title: 'Check my gallery:',
   btnText: 'View all',
   btnIcon: <IoMdArrowForward />,
+  images: [
+    {
+      src: GalleryImg1,
+      original: GalleryImg1,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: GalleryImg2,
+      original: GalleryImg2,
+      width: 465,
+      height: 540,
+    },
+    {
+      src: GalleryImg3,
+      original: GalleryImg3,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: GalleryImg4,
+      original: GalleryImg4,
+      width: 465,
+      height: 540,
+    },
+    {
+      src: GalleryImg5,
+      original: GalleryImg5,
+      width: 465,
+      height: 540,
+    },
+    {
+      src: GalleryImg6,
+      original: GalleryImg6,
+      width: 464,
+      height: 412,
+    },
+  ],
 };
 
 export const interviewData = {
