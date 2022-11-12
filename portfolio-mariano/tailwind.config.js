@@ -30,7 +30,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('/src/img/hero/bg1.jpg')",
         about: "url('/src/img/about/image.png')",
-        interview: "url('/src/img/interview/bg.png')",
+        interview: "url('/src/img/interview/bg.jpg')",
       },
       content: {
         outlineText: 'url("/src/img/hero/outline-text.svg")',

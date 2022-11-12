@@ -5,17 +5,16 @@ import GalleryImg3 from '../src/img/gallery/3.jpg';
 import GalleryImg4 from '../src/img/gallery/4.jpg';
 import GalleryImg5 from '../src/img/gallery/5.jpeg';
 import GalleryImg6 from '../src/img/gallery/6.jpg';
+import GalleryImg7 from '../src/img/gallery/7.jpg';
 import Logo from '../src/img/header/logo2.png';
 import QuoteImg from '../src/img/testimonial/quote.svg';
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
-import { FiSend } from 'react-icons/fi';
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
   IoLogoPinterest,
-  IoLogoTwitter,
   IoLogoYoutube,
 } from 'react-icons/io';
 
@@ -28,18 +27,15 @@ export const navData = {
     { href: '/', name: 'Home' },
     { href: '/', name: 'About' },
     { href: '/', name: 'Gallery' },
-    { href: '/', name: 'Interview' },
-    { href: '/', name: 'Articles' },
     { href: '/', name: 'Contact' },
   ],
 };
 
 export const socialData = [
-  { href: '/', icon: <GrFacebookOption /> },
-  { href: '/', icon: <IoLogoInstagram /> },
-  { href: '/', icon: <IoLogoPinterest /> },
-  { href: '/', icon: <IoLogoTwitter /> },
-  { href: '/', icon: <IoLogoYoutube /> },
+  { href: 'https://www.facebook.com/Mariano.Valdivieso.Pinturas', icon: <GrFacebookOption /> },
+  { href: 'https://www.instagram.com/mariano.valdivieso_pinturas/', icon: <IoLogoInstagram /> },
+  { href: 'https://ar.pinterest.com/MarianoPaint/', icon: <IoLogoPinterest /> },
+  { href: 'https://www.youtube.com/channel/UCPRsngvBhSrDxM1gYhNbKOQ', icon: <IoLogoYoutube /> },
 ];
 
 export const heroData = {
@@ -68,45 +64,51 @@ export const galleryData = {
     {
       src: GalleryImg1,
       original: GalleryImg1,
-      width: 465,
-      height: 412,
+      width: 540,
+      height: 540,
     },
     {
       src: GalleryImg2,
       original: GalleryImg2,
-      width: 465,
+      width: 410,
       height: 540,
     },
     {
       src: GalleryImg3,
       original: GalleryImg3,
-      width: 465,
-      height: 412,
+      width: 410,
+      height: 540,
     },
     {
       src: GalleryImg4,
       original: GalleryImg4,
-      width: 465,
+      width: 410,
       height: 540,
     },
     {
       src: GalleryImg5,
       original: GalleryImg5,
-      width: 465,
+      width: 410,
       height: 540,
     },
     {
       src: GalleryImg6,
       original: GalleryImg6,
-      width: 464,
-      height: 412,
+      width: 410,
+      height: 540,
+    },
+    {
+      src: GalleryImg7,
+      original: GalleryImg7,
+      width: 410,
+      height: 540,
     },
   ],
 };
 
 export const interviewData = {
   title:
-    '“Consider what you desire. Your tattoo artist will never tell you what tattoo to have.”',
+    '“as you get closer to the truth you get closer to the light”',
   btnText: 'Watch it now',
   btnIcon: <FaPlay />,
 };
@@ -132,41 +134,19 @@ export const contactData = {
   title: 'Get in touch with me:',
   info: [
     {
-      title: 'LA office',
+      title: 'All World Office',
       subtitle:
-        'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
-      address: {
-        icon: <FaMapMarkerAlt />,
-        name: '784 Norman Street, Los Angeles',
-      },
+        'Art has no frontiers or flags, contact me',
       phone: {
         icon: <FaPhoneAlt />,
-        number: '+49 93 30493943',
+        number: '+54 2616 44600',
       },
       email: {
         icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
+        address: 'marianovaldivieso@hotmail.com',
       },
-      link: 'Get location',
     },
-    {
-      title: 'NYC office',
-      subtitle:
-        'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
-      address: {
-        icon: <FaMapMarkerAlt />,
-        name: '1630 Elm Drive, New York City',
-      },
-      phone: {
-        icon: <FaPhoneAlt />,
-        number: '+49 34 36573355',
-      },
-      email: {
-        icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
-      },
-      link: 'Get location',
-    },
+    
   ],
   form: {
     name: 'Write your name here',
@@ -178,20 +158,20 @@ export const contactData = {
 
 export const footerData = {
   about: {
-    title: 'About void tattoo',
+    title: 'About Mariano Valdivieso',
     subtitle:
-      'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
+      'If you want to know more about me and my art, do not hesitate to contact me.',
     address: {
       icon: <FaMapMarkerAlt />,
-      name: '1630 Elm Drive, New York City',
+      name: 'All World',
     },
     phone: {
       icon: <FaPhoneAlt />,
-      number: '+49 34 36573355',
+      number: '+54 2616 44600',
     },
     email: {
       icon: <FaEnvelope />,
-      address: 'contact@yourcompany.com',
+      address: 'marianovalidivieso@hotmail.com',
     },
   },
   links: {
@@ -203,22 +183,5 @@ export const footerData = {
       { href: '/', name: 'Contact me' },
     ],
   },
-  program: {
-    title: 'Working Time',
-    items: [
-      { name: 'Mon - Tue / Appointment' },
-      { name: 'Wed - Fri / 10:00 - 9:00pm' },
-      { name: 'Sat / 10:00 - 6:00pm' },
-      { name: 'Sun / no work on this day' },
-    ],
-  },
-  newsletter: {
-    title: 'Newsletter',
-    subtitle:
-      'Elit duis porttitor massa tellus nun in velit arcu posuere integer.',
-    form: {
-      placeholder: 'Your email address',
-      icon: <FiSend />,
-    },
-  },
+
 };
