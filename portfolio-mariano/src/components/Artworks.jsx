@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Header from './Header';
 
 export default function Artworks() {
     const [data, setData] = useState([]);
@@ -27,6 +28,7 @@ export default function Artworks() {
 
     return (
         <section>
+            <Header/>
             <div className='container my-12 mx-auto px-4 md:px-12'>
                 {data?.map((e, id) =>
                     <div className=''>

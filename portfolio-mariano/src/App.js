@@ -1,30 +1,23 @@
 import React from 'react';
 
 // import components
-import Hero from './components/Hero';
-import Header from './components/Header';
-import About from './components/About';
-import GallerySection from './components/GallerySection';
-import Skills from './components/Skills';
-import Interview from './components/Interview';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Copyright from './components/Copyright';
+import Artworks from './components/Artworks';
+import Home from './components/Home';
+import { Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+
 
 const App = () => {
   return (
-    <div className='max-w-[1920px] mx-auto overflow-hidden bg-white'>
-      <Header />
-      <Hero />
-      <About />
-      <GallerySection />
-      <Skills />
-      <Interview />
-      <Contact />
-      <Footer />
-      <Copyright />
-      {/* <div className='h-[4000px]'></div> */}
-    </div>
+    <>
+      <div className='max-w-[1920px] mx-auto overflow-hidden bg-white'>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/gallery' element={<Artworks />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </>
   );
 };
 

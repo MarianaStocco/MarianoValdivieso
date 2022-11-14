@@ -9,6 +9,7 @@ import 'yet-another-react-lightbox/styles.css';
 import { motion } from 'framer-motion';
 // import variants
 import { fadeIn } from '../variants';
+import { Link } from 'react-router-dom';
 
 const slides = galleryData.images.map(({ original, width, height }) => ({
   src: original,
@@ -62,10 +63,12 @@ const GallerySection = () => {
         viewport={{ once: false, amount: 0.2 }}
         className='flex justify-center'
       >
+        <Link to='/gallery'>
         <button className='btn btn-lg btn-dark'>
           {btnText}
           <div className='text-xl'>{btnIcon}</div>
         </button>
+        </Link>
       </motion.div>
     </section>
   );

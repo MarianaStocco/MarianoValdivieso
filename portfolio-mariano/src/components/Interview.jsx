@@ -52,7 +52,7 @@ const Interview = () => {
              {/* modal video */}
              <ModalVideo
                channel='youtube'
-               autoplay
+               autoplay={true}
                isOpen={isOpen}
                videoId='iEHsLbPNqs0'
                onClose={() => setOpen(false)}
