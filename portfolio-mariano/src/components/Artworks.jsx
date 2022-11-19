@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import FilterBar from './FilterBar';
 import Header from './Header';
+
 
 export default function Artworks() {
     const [data, setData] = useState([]);
@@ -24,16 +26,15 @@ export default function Artworks() {
         getData()
     }, [])
 
-    console.log(data);
-
     return (
         <section>
             <Header/>
-            <div className='container my-12 mx-auto px-4 md:px-12'>
+            <FilterBar className='mt-[120px] w-full bg-white mb-5 shadow-md'></FilterBar>
+            <div className='pt-4 pl-1 pr-1 columns-4 '>
                 {data?.map((e, id) =>
-                    <div className=''>
-                        <div key={id} className="col-2">
-                                    <img className="overflow-hidden rounded-lg shadow-lg flex flex-wrap -mx-1 lg:-mx-4 my-1 px-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 h-auto w-full" src={e.image} alt={e.title} />
+                    <div>
+                        <div key={id}>
+                                    <img className='mt-20' src={e.image} alt={e.title} />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">{e.title}</div>
                                 <p className="text-gray-700 text-base">

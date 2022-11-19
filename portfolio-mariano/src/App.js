@@ -3,7 +3,7 @@ import React from 'react';
 // import components
 import Artworks from './components/Artworks';
 import Home from './components/Home';
-import { Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 
 const App = () => {

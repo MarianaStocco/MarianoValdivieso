@@ -24,10 +24,10 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/home', name: 'Home' },
-    { href: '/about', name: 'About' },
+    { href: '/', name: 'Home' },
+    { href: '/', name: 'About' },
     { href: '/gallery', name: 'Gallery' },
-    { href: '/contact', name: 'Contact' },
+    { href: '/', name: 'Contact' },
   ],
 };
 

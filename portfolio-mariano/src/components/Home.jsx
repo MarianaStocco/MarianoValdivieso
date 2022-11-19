@@ -20,8 +20,8 @@ export default function Home  ()  {
     <Interview />
     <Skills />
     <Contact />
-    <Copyright />
     <Footer />
+    <Copyright />
     </>
   )
 }
