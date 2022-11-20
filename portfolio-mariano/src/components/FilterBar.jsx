@@ -39,10 +39,11 @@ export default function FilterBar() {
     //Art filter
     const techniqueAll = [];
     
-    data.map(art => {
-        art.technique.filter((tech) => techniqueAll.push(tech))
-        return null
-    })
+    data && data.map(art => 
+        art.technique
+        
+    )
+    console.log(data.technique);
 
     function handlerSubmit(e) {
         e.target.value ? e.target.name === 'technique' ? 
@@ -53,14 +54,14 @@ export default function FilterBar() {
         navigate(location);
     }
     return (
-        <div className="mt-[200px] py-4 px-3 flex md:flex-row flex-col z-1">
+        <div className="py-4 px-3 flex md:flex-row flex-col z-1">
             {
             <>
                 <FormControl>
-                    <InputLabel id="techniques">Technique</InputLabel>
+                    <InputLabel id="technique">Technique</InputLabel>
                     <Select
                         sx={{ width: 150, mr: "2rem" }}
-                        id="techniques"
+                        id="technique"
                         name="technique"
                         variant="filled"
                         value={technique ? technique : ""}
