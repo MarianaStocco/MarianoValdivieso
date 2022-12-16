@@ -3,9 +3,9 @@ import Hero from './Hero';
 import Header from './Header';
 import About from './About';
 import GallerySection from './GallerySection';
-import Skills from './Skills';
+// import Skills from './Skills';
 import Interview from './Interview';
-import Contact from './Contact';
+// import Contact from './Contact';
 import Footer from './Footer';
 import Copyright from './Copyright';
 
@@ -18,8 +18,8 @@ export default function Home  ()  {
     <About />
     <GallerySection />
     <Interview />
-    <Skills />
-    <Contact />
+    {/* <Skills /> */}
+    {/* <Contact /> */}
     <Footer />
     <Copyright />
     </>

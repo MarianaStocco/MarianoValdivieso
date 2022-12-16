@@ -27,7 +27,7 @@ export const navData = {
     { href: '/', name: 'Home' },
     { href: '/', name: 'About' },
     { href: '/gallery', name: 'Gallery' },
-    { href: '/', name: 'Contact' },
+    // { href: '/', name: 'Contact' },
   ],
 };
 
@@ -174,13 +174,13 @@ export const footerData = {
       address: 'marianovalidivieso@hotmail.com',
     },
   },
-  links: {
-    title: 'Useful links',
-    items: [
-      { href: '/about', name: 'About me' },
-      { href: '/gallery', name: 'My gallery' },
-      { href: '/contact', name: 'Contact me' },
-    ],
-  },
+  // links: {
+  //   title: 'Useful links',
+  //   items: [
+  //     // { href: '/about', name: 'About me' },
+  //     { href: '/gallery', name: 'My gallery' },
+  //     // { href: '/contact', name: 'Contact me' },
+  //   ],
+  // },
 
 };

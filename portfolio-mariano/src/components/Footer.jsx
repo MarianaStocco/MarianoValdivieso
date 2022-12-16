@@ -18,7 +18,7 @@ const staggerContainer = {
 
 const Footer = () => {
   // destructure footer data
-  const { about, links } = footerData;
+  const { about} = footerData;
   return (
     <footer className='bg-dark section'>
       <div className='container mx-auto'>
@@ -68,10 +68,10 @@ const Footer = () => {
             className='flex-1 flex flex-col xl:items-center'
           >
             <div>
-              <div className='font-primary text-xl uppercase tracking-[0.08em] mb-6'>
+              {/* <div className='font-primary text-xl uppercase tracking-[0.08em] mb-6'>
                 {links.title}
-              </div>
-              <ul className='flex flex-col gap-y-4 text-[#DBDBDB]'>
+              </div> */}
+              {/* <ul className='flex flex-col gap-y-4 text-[#DBDBDB]'>
                 {links.items.map((item, index) => {
                   // destructure item
                   const { href, name } = item;
@@ -83,7 +83,7 @@ const Footer = () => {
                     </li>
                   );
                 })}
-              </ul>
+              </ul> */}
             </div>
           </motion.div>
         </motion.div>
