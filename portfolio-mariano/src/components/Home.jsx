@@ -17,7 +17,7 @@ export default function Home  ()  {
     <Hero />
     {/* <About /> */}
     <GallerySection />
-    <Interview />
+    {/* <Interview /> */}
     {/* <Skills /> */}
     {/* <Contact /> */}
     <Footer />
