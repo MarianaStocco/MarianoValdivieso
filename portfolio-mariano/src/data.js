@@ -33,7 +33,7 @@ export const navData = {
 
 export const socialData = [
   { href: 'https://www.facebook.com/Mariano.Valdivieso.Pinturas', icon: <GrFacebookOption /> },
-  { href: 'https://www.instagram.com/mariano.valdivieso_pinturas/', icon: <IoLogoInstagram /> },
+  { href: 'https://www.instagram.com/amihank_keniihank/', icon: <IoLogoInstagram /> },
   { href: 'https://ar.pinterest.com/MarianoPaint/', icon: <IoLogoPinterest /> },
   { href: 'https://www.youtube.com/channel/UCPRsngvBhSrDxM1gYhNbKOQ', icon: <IoLogoYoutube /> },
 ];
@@ -105,7 +105,89 @@ export const galleryData = {
     },
   ],
 };
+export const gallery = {
+  title: 'Digital Art:',
+  btnText: 'View all',
+  btnIcon: <IoMdArrowForward />,
+  images: [
 
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/nacimiento_inta_tz5ss1.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/nacimiento_inta_tz5ss1.jpg',
+      width:[] ,
+      height:[] ,
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/angel_3_inta_ekcquj.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/angel_3_inta_ekcquj.jpg',
+      width: [],
+      height: [],
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/angel_2_insta_tglax1.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/angel_2_insta_tglax1.jpg',
+      width: [],
+      height: [],
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062180/Artworks/ser_cristal_03_qczgly.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062180/Artworks/ser_cristal_03_qczgly.jpg',
+      width: [],
+      height: [],
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062177/Artworks/ser_cristal_08_htvqqm.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062177/Artworks/ser_cristal_08_htvqqm.jpg',
+      width: [],
+      height: [],
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062176/Artworks/ser_cristal_09_jlfl20.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062176/Artworks/ser_cristal_09_jlfl20.jpg',
+      width: [],
+      height: [],
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062171/Artworks/ser_cristal_11_vy7azo.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062171/Artworks/ser_cristal_11_vy7azo.jpg',
+      width: [],
+      height: [],
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062164/Artworks/ser_cristal_12_wnggev.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062164/Artworks/ser_cristal_12_wnggev.jpg',
+      width: [],
+      height: [],
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062165/Artworks/mercahva_chico_dmbglk.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062165/Artworks/mercahva_chico_dmbglk.jpg',
+      width: [],
+      height: [],
+    },
+    {
+      src: "https://res.cloudinary.com/drmm6mayx/image/upload/v1665430440/Artworks/faraon_negro_s1d2kz.jpg",
+      original: "https://res.cloudinary.com/drmm6mayx/image/upload/v1665430440/Artworks/faraon_negro_s1d2kz.jpg",
+      width: [],
+      height: [],
+    },
+
+    {
+      src: "https://res.cloudinary.com/drmm6mayx/image/upload/v1663943046/Artworks/steam_pxbnog.jpg",
+      original: "https://res.cloudinary.com/drmm6mayx/image/upload/v1663943046/Artworks/steam_pxbnog.jpg",
+      width: [],
+      height: [],
+    },
+    
+    {
+      src: "https://res.cloudinary.com/drmm6mayx/image/upload/v1663930334/Artworks/molotov_yxhxw4.jpg",
+      original: "https://res.cloudinary.com/drmm6mayx/image/upload/v1663930334/Artworks/molotov_yxhxw4.jpg",
+      width: [],
+      height: [],
+    },
+
+  ],
+};
 export const interviewData = {
   title:
     '“as you get closer to the truth you get closer to the light”',
@@ -113,22 +195,7 @@ export const interviewData = {
   btnIcon: <FaPlay />,
 };
 
-export const testimonialData = [
-  {
-    quoteImg: QuoteImg,
-    message:
-      "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
-    name: 'Jack Geoffrey',
-    occupation: 'Tattoo Artist',
-  },
-  {
-    quoteImg: QuoteImg,
-    message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?',
-    name: 'Douglas Hane',
-    occupation: 'Tattoo Artist',
-  },
-];
+
 
 export const contactData = {
   title: 'Get in touch with me:',

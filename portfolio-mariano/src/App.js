@@ -1,11 +1,11 @@
 import React from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 // import components
 import Artworks from './components/Artworks';
 import Home from './components/Home';
 import Header from './components/Header';
-
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import DetailArt from './components/Detail';
 
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/gallery' element={<Artworks />} />
+            <Route exact path="/detail/:id" element={<DetailArt />} />
           </Routes>
         </BrowserRouter>
       </div>
