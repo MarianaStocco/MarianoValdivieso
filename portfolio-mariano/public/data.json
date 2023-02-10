@@ -1,0 +1,220 @@
+
+   
+ [
+    {
+        "id": 1,
+        "title": "Nyarlatothep. The crawling chaos ",
+        "technique": "Digital Art",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1665430440/Artworks/faraon_negro_s1d2kz.jpg",
+        "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem."
+    },
+    {
+        "id": 2,
+        "title": "Steam",
+        "technique": "Digital Art",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663943046/Artworks/steam_pxbnog.jpg",
+        "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque."
+    },
+    {
+        "id": 3,
+        "title": "Molotov",
+        "technique": "Digital Art",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663930334/Artworks/molotov_yxhxw4.jpg",
+        "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+    },
+    {
+        "id": 4,
+        "title": "Sexiest colors",
+        "technique": "Pastel chalk. Graphite",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928396/Artworks/IMG_20220226_131046_4041_s961ze.jpg",
+        "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque."
+    },
+    {
+        "id": 5,
+        "title": "Gift me an ink",
+        "technique": "Ink. Watercolor",
+        "release_year": 2021,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928373/Artworks/IMG_20220314_180223_4053_rvhw82.jpg",
+        "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis."
+    },
+    {
+        "id": 6,
+        "title": "Entintada",
+        "technique": "Ink. Watercolor",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928369/Artworks/entintada_-_Subida_aojgx6.jpg",
+        "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+    },
+    {
+        "id": 7,
+        "title": "Happiest explosion",
+        "technique": "Ink. Watercolor",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928366/Artworks/SQ_-_subida_othn9e.jpg",
+        "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+    },
+    {
+        "id": 8,
+        "title": "Tattoed II",
+        "technique": "Ink. Watercolor",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928365/Artworks/IMG_20220226_131123_4042_nde4lr.jpg",
+        "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus."
+    },
+    {
+        "id": 9,
+        "title": "Whiskey Queen",
+        "technique": "Ink. Watercolor",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928361/Artworks/IMG_20220226_131105_4040_nlnit1.jpg",
+        "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus."
+    },
+    {
+        "id": 10,
+        "title": "Sacrificio I",
+        "technique": "Oil on canvas",
+        "release_year": 2020,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927969/Artworks/Sacrificio_01_pnwdf5.jpg",
+        "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+    },
+    {
+        "id": 11,
+        "title": "Sacrificio II",
+        "technique": "Oil on canvas",
+        "release_year": 2020,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927967/Artworks/Sacrificio_02_rj8ye2.jpg",
+        "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+    },
+    {
+        "id": 12,
+        "title": "Sacrificio III",
+        "technique": "Oil on canvas",
+        "release_year": 2020,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928234/Artworks/Sacrificio_03_hllzpi.jpg",
+        "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi."
+    },
+    {
+        "id": 13,
+        "title": "Agua",
+        "technique": "Oil on canvas",
+        "release_year": 2021,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928191/Artworks/Agua_apdlmh.jpg",
+        "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit."
+    },
+    {
+        "id": 14,
+        "title": "Verano",
+        "technique": "Oil on canvas",
+        "release_year": 2018,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927967/Artworks/02_verano_jszme8.jpg",
+        "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+        "id": 15,
+        "title": "Otoño",
+        "technique": "Oil on canvas",
+        "release_year": 2018,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927968/Artworks/03_oto%C3%B1o_xx78z9.jpg",
+        "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum."
+    },
+    {
+        "id": 16,
+        "title": "Invierno",
+        "technique": "Oil on canvas",
+        "release_year": 2018,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663928009/Artworks/04_invierno_yp1imf.jpg",
+        "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+    },
+    {
+        "id": 17,
+        "title": "Primavera",
+        "technique": "Oil on canvas",
+        "release_year": 2018,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927960/Artworks/01_primavera_wqh35d.jpg",
+        "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet."
+    },
+    {
+        "id": 18,
+        "title": "In vino Veritas",
+        "technique": "Oil on canvas",
+        "release_year": 2017,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927990/Artworks/In_Vino_Veritas_q7pjxf.jpg",
+        "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+    },
+    {
+        "id": 19,
+        "title": "Primals I",
+        "technique": "Digital Art",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927986/Artworks/peniasco_jzw6lh.jpg",
+        "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+    },
+    {
+        "id": 20,
+        "title": "XI",
+        "technique": "Oil on canvas",
+        "release_year": 2017,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927983/Artworks/XI_lezb1b.jpg",
+        "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    },
+    {
+        "id": 21,
+        "title": "Fuego",
+        "technique": "Oil on canvas",
+        "release_year": 2021,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927979/Artworks/Fuego_skx2up.jpg",
+        "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+    },
+    {
+        "id": 22,
+        "title": "Virtudes Ancestrales",
+        "technique": "Oil on canvas",
+        "release_year": 2016,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927976/Artworks/Virtudes_Ancestrales_ndyae1.jpg",
+        "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat."
+    },
+    {
+        "id": 23,
+        "title": "Possy",
+        "technique": "Digital Art",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927975/Artworks/pelirroja_an_txl1ub.jpg",
+        "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+    },
+    {
+        "id": 24,
+        "title": "Grata ad Vinariam",
+        "technique": "Oil on canvas",
+        "release_year": 2018,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927975/Artworks/Grata_ad_vinariam_s3im34.jpg",
+        "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi."
+    },
+    {
+        "id": 25,
+        "title": "Opus Aqua Sole",
+        "technique": "Oil on canvas",
+        "release_year": 2017,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927969/Artworks/Opus_Aqua_Sole_ntlx9t.jpg",
+        "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+    },
+    {
+        "id": 26,
+        "title": "Filosofía I",
+        "technique": "Oil on canvas",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927968/Artworks/filosofia_1_maarse.jpg",
+        "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+    },
+    {
+        "id": 27,
+        "title": "St. Mary",
+        "technique": "Digital Art",
+        "release_year": 2022,
+        "image": "https://res.cloudinary.com/drmm6mayx/image/upload/v1663927961/Artworks/rubia_an_def_bnzkvc.jpg",
+        "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    }
+]
