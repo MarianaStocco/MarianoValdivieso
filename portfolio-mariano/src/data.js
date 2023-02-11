@@ -7,7 +7,6 @@ import GalleryImg5 from '../src/img/gallery/5.jpeg';
 import GalleryImg6 from '../src/img/gallery/6.jpg';
 import GalleryImg7 from '../src/img/gallery/7.jpg';
 import Logo from '../src/img/header/logo2.png';
-import QuoteImg from '../src/img/testimonial/quote.svg';
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
@@ -27,7 +26,6 @@ export const navData = {
     { href: '/', name: 'Home' },
     { href: '/', name: 'About' },
     { href: '/gallery', name: 'Gallery' },
-    // { href: '/', name: 'Contact' },
   ],
 };
 
@@ -114,76 +112,76 @@ export const gallery = {
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/nacimiento_inta_tz5ss1.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/nacimiento_inta_tz5ss1.jpg',
-      width:[] ,
-      height:[] ,
+      width:850 ,
+      height:650 ,
     },
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/angel_3_inta_ekcquj.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/angel_3_inta_ekcquj.jpg',
-      width: [],
-      height: [],
+      width: 650,
+      height: 820,
     },
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/angel_2_insta_tglax1.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062625/Artworks/angel_2_insta_tglax1.jpg',
-      width: [],
-      height: [],
+      width: 850,
+      height: 720,
     },
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062180/Artworks/ser_cristal_03_qczgly.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062180/Artworks/ser_cristal_03_qczgly.jpg',
-      width: [],
-      height: [],
+      width: 600,
+      height: 800,
     },
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062177/Artworks/ser_cristal_08_htvqqm.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062177/Artworks/ser_cristal_08_htvqqm.jpg',
-      width: [],
-      height: [],
+      width: 700,
+      height: 900,
     },
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062176/Artworks/ser_cristal_09_jlfl20.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062176/Artworks/ser_cristal_09_jlfl20.jpg',
-      width: [],
-      height: [],
+      width: 750,
+      height: 950,
     },
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062171/Artworks/ser_cristal_11_vy7azo.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062171/Artworks/ser_cristal_11_vy7azo.jpg',
-      width: [],
-      height: [],
+      width: 700,
+      height: 850,
     },
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062164/Artworks/ser_cristal_12_wnggev.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062164/Artworks/ser_cristal_12_wnggev.jpg',
-      width: [],
-      height: [],
+      width: 700,
+      height: 870,
     },
     {
       src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062165/Artworks/mercahva_chico_dmbglk.jpg',
       original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1676062165/Artworks/mercahva_chico_dmbglk.jpg',
-      width: [],
-      height: [],
+      width: 850,
+      height: 650,
     },
     {
       src: "https://res.cloudinary.com/drmm6mayx/image/upload/v1665430440/Artworks/faraon_negro_s1d2kz.jpg",
       original: "https://res.cloudinary.com/drmm6mayx/image/upload/v1665430440/Artworks/faraon_negro_s1d2kz.jpg",
-      width: [],
-      height: [],
+      width: 850,
+      height: 650,
     },
 
     {
       src: "https://res.cloudinary.com/drmm6mayx/image/upload/v1663943046/Artworks/steam_pxbnog.jpg",
       original: "https://res.cloudinary.com/drmm6mayx/image/upload/v1663943046/Artworks/steam_pxbnog.jpg",
-      width: [],
-      height: [],
+      width: 850,
+      height: 650,
     },
     
     {
       src: "https://res.cloudinary.com/drmm6mayx/image/upload/v1663930334/Artworks/molotov_yxhxw4.jpg",
       original: "https://res.cloudinary.com/drmm6mayx/image/upload/v1663930334/Artworks/molotov_yxhxw4.jpg",
-      width: [],
-      height: [],
+      width: 850,
+      height: 650,
     },
 
   ],
@@ -241,13 +239,4 @@ export const footerData = {
       address: 'marianovalidivieso@hotmail.com',
     },
   },
-  // links: {
-  //   title: 'Useful links',
-  //   items: [
-  //     // { href: '/about', name: 'About me' },
-  //     { href: '/gallery', name: 'My gallery' },
-  //     // { href: '/contact', name: 'Contact me' },
-  //   ],
-  // },
-
 };
