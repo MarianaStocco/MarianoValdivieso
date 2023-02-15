@@ -26,11 +26,17 @@ export default function Artworks() {
   return (
     <section>
       <div className='mt-[150px] md:w-48 md:h-auto sm:w-20 sm:h-auto'>
+        <a href="https://www.buymeacoffee.com/amhiank">
+          <p
+          className='ml-9 font-light'>
+            Si quieres apoyar mi trabajo, invítame un café!
+          </p>
         <img 
         src={BuyMeACofee} 
         alt="buy-me-a-coffe"
         className='w-15 h-10  md:rounded-none  mx-auto py-2'
          />
+        </a>
       </div>
       <h1 className='mt-[50px] ml-32 text-lg font-extrabold'>DIGITAL ART</h1>
       <div>
