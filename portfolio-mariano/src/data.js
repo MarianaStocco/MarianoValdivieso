@@ -164,6 +164,48 @@ export const gallery = {
       height: 650,
     },
     {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110554/Artworks/ser_cristal_04_l42q78.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110554/Artworks/ser_cristal_04_l42q78.jpg',
+      width: 850,
+      height: 650,
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110553/Artworks/maihkiu_2_br4bob.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110553/Artworks/maihkiu_2_br4bob.jpg',
+      width: 850,
+      height: 650,
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110548/Artworks/ser_cristal_01_eeunqj.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110548/Artworks/ser_cristal_01_eeunqj.jpg',
+      width: 850,
+      height: 650,
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110545/Artworks/ser_cristal_07_fr1hgd.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110545/Artworks/ser_cristal_07_fr1hgd.jpg',
+      width: 850,
+      height: 650,
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110535/Artworks/rescate_de_flora_t2016p.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110535/Artworks/rescate_de_flora_t2016p.jpg',
+      width: 850,
+      height: 650,
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110533/Artworks/maikihu_jhaul3.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677110533/Artworks/maikihu_jhaul3.jpg',
+      width: 850,
+      height: 650,
+    },
+    {
+      src: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677111063/Artworks/ser_cristal_00_dvuxor.jpg',
+      original: 'https://res.cloudinary.com/drmm6mayx/image/upload/v1677111063/Artworks/ser_cristal_00_dvuxor.jpg',
+      width: 850,
+      height: 650,
+    },
+    {
       src: "https://res.cloudinary.com/drmm6mayx/image/upload/v1665430440/Artworks/faraon_negro_s1d2kz.jpg",
       original: "https://res.cloudinary.com/drmm6mayx/image/upload/v1665430440/Artworks/faraon_negro_s1d2kz.jpg",
       width: 850,
